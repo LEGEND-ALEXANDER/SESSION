@@ -2,61 +2,63 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("⛈️ ꜱᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ ꜱᴇꜱꜱɪᴏɴ ⛈️", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="🏠 ʀᴇᴛᴜʀɴ ʜᴏᴍᴇ 🏠", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/ELUpdates/8")],
+        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/SANATANI_x_ROBOT")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/ELUpdates")],
+        [
+        
+            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/SANATANI_TECH"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/+Ckzm2ypQyIIzZTll")
+      
+        ],
+        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/SANATANI_TECH")],
     ]
 
     START = """
-**Hey {}
-
-Welcome to {}
-
-If you don't trust this bot, 
-> Please stop reading this message
-> Delete this chat
-
-Still reading?
-You can use me to generate Pyrogram and Telethon string session. Use below buttons to learn more !
-
-By @ELUpdates**
+**┌────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤͟͟͞͞‌‌‌‌★
+┆◍ нᴇʏ {}
+┆● ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ! 
+└─────────────────────────•
+❖ ɪ ᴀᴍ ᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴇ ʙᴏᴛ
+❖ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 
+❖ sᴜᴘᴘᴏʀᴛ - ᴘʏʀᴏɢʀᴀᴍ | ᴛᴇʟᴇᴛʜᴏɴ
+•─────────────────────────•
+❖ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH) 🚩**
     """
 
     HELP = """
-✨ **Available Commands** ✨
+**ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ** ⚡
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/start - ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+/help - ᴏᴘɴᴇʀ ʜᴇʟᴘ ᴍᴇɴᴜ
+/about - ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴏᴡʀ
+/generate - ɢᴇɴᴇʀᴀᴛᴇ ᴛʜᴇ ꜱᴇꜱꜱɪᴏɴ
+/cancel - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴀʟʟ ᴘʀᴏᴄᴇꜱꜱ
+/restart - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴀʟʟ ᴘʀᴏᴄᴇꜱꜱ
 """
 
     ABOUT = """
-**About This Bot** 
+**ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ** 🌙
 
-Telegram Bot to generate Pyrogram and Telethon string session by @ELUpdates
+ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ
+ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH)
 
-Source Code : [Click Here](https://github.com/EL-Coders/SessionStringBot)
+◌ ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/SANATANI_TECH)
 
-Language : [Python](https://www.python.org)
-
-Developer : @CoderELAlpha
+◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [🦋⃟‌🇸ʌᷟᴄᷣʜɪ֟፝η 🌸](https://t.me/V_VIP_OWNER)
     """
