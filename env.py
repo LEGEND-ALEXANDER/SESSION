@@ -7,6 +7,7 @@ API_ID = os.getenv("API_ID", "").strip()
 API_HASH = os.getenv("API_HASH", "").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+LOGGER = os.getenv("LOGGER", "")
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 ALIVE_PIC = os.getenv("ALIVE_PIC", "https://telegra.ph/file/00eaed55184edf059dbf7.jpg")
 
